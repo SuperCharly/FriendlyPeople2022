@@ -1,0 +1,68 @@
+.boton.In::after{
+    content: "";
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: calc(-100% - 80px);
+    border-bottom: 80px solid red;
+    border-right: 80px solid transparent ;
+   transition: .4s ease-in-out all;
+
+}
+
+.boton.In:hover::after{
+    left: 0;
+}
+
+.boton.Reg::after{
+    content: "";
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: calc(-100% - 80px);
+    border-bottom: 80px solid red;
+    border-right: 80px solid transparent ;
+   transition: .4s ease-in-out all;
+
+}
+
+.boton.Reg:hover::after{
+    left: 0;
+}
+
+.boton.Obj::after{
+    content: "";
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: calc(-100% - 80px);
+    border-bottom: 80px solid red;
+    border-right: 80px solid transparent ;
+   transition: .4s ease-in-out all;
+
+}
+
+.boton.Obj:hover::after{
+    left: 0;
+}
+
+
+.boton.Login::after{
+    content: "";
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: calc(-100% - 80px);
+    border-bottom: 80px solid red;
+    border-right: 80px solid transparent ;
+   transition: .4s ease-in-out all;
+
+}
+
+.boton.Login:hover::after{
+    left: 0;
+}

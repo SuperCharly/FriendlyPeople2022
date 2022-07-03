@@ -1,0 +1,37 @@
+.boton.Obje span{
+    transition: .4s ease-in-out all;
+     position: absolute;
+     left: 35%;
+   
+  }
+  
+  .boton.Obje .icono{
+      display: flex;
+      align-items: center;
+      position: absolute;
+      z-index: 2;
+      left: -40px;
+     transition: .3s ease-in-out all;
+     opacity: 0;
+  }
+  
+  .boton.Obje svg{
+      color: white;
+      width: 28px;
+      height: 28px;
+  }
+  
+  .boton.Obje:hover{
+      background: yellowgreen;
+  }
+  
+  .boton.Obje:hover .icono{
+      left: calc(100% - 50px);
+      opacity: 1;
+  }
+  
+  .boton.Obje:hover span{
+      left: 30px;
+  }
+  
+  

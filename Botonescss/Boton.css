@@ -1,0 +1,48 @@
+.boton{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    background: black;
+    color: white;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.boton span{
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
+}
+
+.boton.In{
+    width: 250px;
+    height: 70px    ;
+}
+.boton.Obj{
+    width: 250px;
+    height: 70px;
+}
+.boton.Reg{
+    width: 250px;
+    height: 70px;
+}
+.boton.Login{
+    width: 270px;
+    height: 70px;
+}
+.boton.Obje{
+    width: 200px;
+    height: 65px;
+}
+
+
+
