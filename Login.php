@@ -110,17 +110,15 @@ if(isset($_POST['submit']))
             <nav class="navbar navbar-expand-lg" style="background-color: black; padding-bottom: 100px">
              
                 <div class="collapse navbar-collapse" id="menu">
-                          <li class="nav-item">
-                           <a href="Index.php"><button class="boton In" type="button" style="font-size: 20px; position: absolute; left: 10%; top: 30px"><span>Inicio</span></button></a></li> 
-                       <li class="nav-item">
-                           <a href="Registrar.php"><button class="boton Obj" type="button" style="font-size: 20px; position: absolute; left: 30%; top: 30px"><span>Registrarse</span></button></a>
-                        </li>
+					<li class="nav-item">
+                           <a href="Index.php"><button class="boton In" type="button" style="font-size: 20px; position: absolute; left: 10%; top: 30px"><span>Inicio</span></button></a>
+                        </li> 
                         <li class="nav-item">
-                            <a href="Registrar_dis.php"><button class="boton Reg" type="button" style="font-size: 20px; position: absolute; left: 50%; top: 30px"><span>Registrarse (Discapacitado)</span></button></a>
+                            <a href="Objetivos.php"><button class="boton Reg" type="button" style="font-size: 20px; position: absolute; left: 40%; top: 30px"><span>Objetivos</span></button></a>
                         </li>
                        <li class="nav-item">
-                           <a href="Objetivos.php"><button class="boton Login" type="button" style="font-size: 20px; position: absolute; left: 70%; top: 30px">
-                                     <span>Objetivos</span></button></a>
+                           <a href="Registrar.php"><button class="boton Login" type="button" style="font-size: 20px; position: absolute; left: 70%; top: 30px">
+                                     <span>Registrarse</span></button></a>
                         </li>
                 </div>	
             </nav> 
@@ -150,7 +148,8 @@ if(isset($_POST['submit']))
     
     <p>¿No tienes una cuenta? <a href="Registrar.php" style="text-decoration: none">¡Regístrate!</a></p>
   </div>
-                <button type="submit" name="submit" class="btn btn-primary">Ingresar</button>
+  	<button type="submit" name="submit" class="btn btn-primary"><a href="Home.php" style="color: white; text-decoration: none;">Ingresar</a></button>
+
 
   </form>
             

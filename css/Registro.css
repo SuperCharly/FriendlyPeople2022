@@ -34,7 +34,7 @@
     }
     
     section{
-        height: 937px;
+        height: 852px;
         display: flex;
         justify-content: space-evenly;
         padding: 0 40px;
@@ -69,7 +69,7 @@
         }
         
      section img{
-        height: 60%;
+        height: 50%;
     }
     
     section:nth-child(2){

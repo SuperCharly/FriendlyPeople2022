@@ -248,13 +248,11 @@ if(isset($_POST['submit']))
                 <div class="centrado">
                 <div class="container-fluid">
                 <div class="collapse navbar-collapse" id="menu">
-                           <li class="nav-item">
-                           <a href="Index.php"><button class="boton In" type="button" style="font-size: 20px; position: absolute; left: 10%; top: 30px"><span>Inicio</span></button></a></li> 
-                       <li class="nav-item">
-                           <a href="Registrar.php"><button class="boton Obj" type="button" style="font-size: 20px; position: absolute; left: 30%; top: 30px"><span>Registrarse</span></button></a>
-                        </li>
+                <li class="nav-item">
+                           <a href="Index.php"><button class="boton In" type="button" style="font-size: 20px; position: absolute; left: 10%; top: 30px"><span>Inicio</span></button></a>
+                        </li> 
                         <li class="nav-item">
-                            <a href="Objetivos.php"><button class="boton Reg" type="button" style="font-size: 20px; position: absolute; left: 50%; top: 30px"><span>Objetivos</span></button></a>
+                            <a href="Objetivos.php"><button class="boton Reg" type="button" style="font-size: 20px; position: absolute; left: 40%; top: 30px"><span>Objetivos</span></button></a>
                         </li>
                        <li class="nav-item">
                            <a href="Login.php"><button class="boton Login" type="button" style="font-size: 20px; position: absolute; left: 70%; top: 30px">
@@ -433,11 +431,36 @@ if(isset($_POST['submit']))
 <input type="password" class="form-control" name="password" id="validationDefaultPassword" required>
  </div>
 </div>
+<div class="col-md-3">
+                <label for="validationDefault12" class="form-label">Tipo de discapacidad</label>
+                <select class="form-select" class="CajaBox" id="caja">
+      <option selected disabled value="">Selecciona...</option>
+      <option>Visual</option>
+      <option>Auditiva</option>
+      <option>Motriz</option>
+      <option>Verbal</option>
+      <option>Mental</option>
+      <option>2 o más</option>
+      </select>
+</div>
+         
+              <div class="col-md-6">
+                   <label for="validationDefault14" class="form-label">Describe tu(s) discapacidad(es) para poder entenderte mejor</label>
+<div class="form-floating">
+    <textarea class="form-control" class="CajaBox" placeholder="Leave a comment here" id="caja" style="height: 90px"></textarea>
+  <label for="floatingTextarea2">¡Lléname!</label>
+</div>
+              </div>
+<div>
+                    <p>¿Ya tienes una cuenta? <a href="Login.php" style="text-decoration: none; padding-bottom: 0">¡Inicia sesión!</a></p>
+                    <p style="opacity:0.9">Al registrarte, estás de acuerdo en que has leído y aceptado los <a href="T&C.php" style="text-decoration: none; padding-bottom: 0">Términos y Condiciones</a></p>   
+                    <button type="submit" name="submit" class="btn btn-primary">Registrarse</button>
+                </div>
+            </form>
+            </div>
+            <img src="img/RegistrarSVG.svg">
+            </section>      
 
-    <p>¿Ya tienes una cuenta? <a href="Login.php" style="text-decoration: none; padding-bottom: 0">¡Inicia sesión!</a></p>
-        <button type="submit" name="submit" class="btn btn-primary">Registrarse</button>
-
-     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>  
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
       
@@ -446,5 +469,23 @@ if(isset($_POST['submit']))
 			  crossorigin="anonymous"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
      
+   <script>
+                    const icono=document.querySelector(".icono");
+                    
+                    icono.addEventListener("click", function(){
+                        const icon=this.querySelector("i");
+                        
+                        if(this.nextElementSibling.type=== "password"){
+                            icon.classList.remove("fa-eye-slash");
+                            icon.classList.add("fa-eye");
+                            this.nextElementSibling.type = "text";
+                        }else{
+                            this.nextElementSibling.type = "password";
+                              icon.classList.remove("fa-eye");
+                               icon.classList.add("fa-eye-slash");
+                        }
+                    }
+                            );
+                </script>
    </body>
 </html>

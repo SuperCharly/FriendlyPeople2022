@@ -98,11 +98,11 @@ section:nth-child(4){
 @media screen and (max-width:1000px){
     section{
         flex-direction: column-reverse;
-     
+     height: 130%;
     }
     
     section>img{
-        height: 40%;
+        height: 0%;
     }
     
     .Contenedor-txt{
@@ -112,6 +112,6 @@ section:nth-child(4){
 
 @media screen and (max-width: 600px){
    section>img{
-        height: 25%;
+        height: 0%;
     } 
 }
