@@ -27,13 +27,7 @@
                     <span class="title">Solicitudes</span>
                 </a>
             </li>
-            <li class="list">
-               
-                <a href="#">
-                    <span class="icon"><ion-icon name="checkbox"></ion-icon></span>
-                    <span class="title">Solicitudes aceptadas</span>
-                </a>
-            </li>
+            
             <li class="list">
                
                 <a href="profile.php">

@@ -4,12 +4,12 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Perfil</title>
+	<title>Solicitudes</title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Noto+Sans+JP&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <script src="https://kit.fontawesome.com/6a3af0d5cf.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="CSS/request.css" type="text/css"/>
+    <link rel="stylesheet" href="css/requests.css" type="text/css"/>
 </head>
 <body>
     <div class="Navbar">
@@ -22,18 +22,12 @@
                 </li>
                 <li class="list active">
                     
-                    <a href="Home.php">
+                    <a href="Requests.php">
                         <span class="icon"><ion-icon name="clipboard"></ion-icon></span>
                         <span class="title">Solicitudes</span>
                     </a>
                 </li>
-                <li class="list">
                 
-                    <a href="#">
-                        <span class="icon"><ion-icon name="checkbox"></ion-icon></span>
-                        <span class="title">Solicitudes aceptadas</span>
-                    </a>
-                </li>
                 <li class="list">
                 
                     <a href="profile.php">
@@ -44,7 +38,7 @@
                 
                 <li class="list">
                 
-                    <a href="#">
+                    <a href="Ayuda.php">
                         <span class="icon"><ion-icon name="help-circle"></ion-icon></span>
                         <span class="title">Ayuda</span>
                     </a>
@@ -58,35 +52,43 @@
                 </li>
             </ul>
     </div>
-    <section class="seccion-perfil-usuario">
-        <div class="perfil-usuario-header">
-            <div class="perfil-usuario-portada">
-            <div class="perfil-usuario-avatar">
-                    <img src="http://localhost/multimedia/relleno/img-c9.png" alt="img-avatar">
+    <section class="seccion-config-usuario">
+        <div class="config-usuario-header">
+            <div class="config-usuario-portada">
+                <div class="config-usuario-bio">
+                    <h3 class="titulo" style="text-align: center;">Solicitudes</h3>
                 </div>
-                <ul class="lista-datos">
-                    <li><i class="icono fa-solid fa-city"></i>Estado:</li>
-                    <li><i class="icono fas fa-map-marker-alt"></i> Municipio:</li>
-                    <li><i class="icono fa-solid fa-location-crosshairs"></i> Localidad:</li>
-                    <li><i class="icono fas fa-map-signs"></i> Direccion:</li>
-                </ul>
-                <ul class="lista-datos">
-                    <li><i class="icono fas fa-calendar-alt"></i> Fecha nacimiento:</li>
-                    <li><i class="icono fas fa-phone-alt"></i> Telefono:</li>
-                    <li><i class="icono fa-solid fa-neuter"></i> Género:</li>
-                    <li><i class="icono fa-solid fa-circle-minus"></i> Discapacidad:</li>
+                <div class="config-usuario-footer" style="margin-top: 40px; width: 100; height: 200px;">
+                    <div class="izquierda" style="top: 0; left: 0; width: 200px; height: 20px">
+                        <img src="img/usuarioDefault.jpg" alt="" class="img-user" style="height: 160px; width: 160px; border-radius: 50%; 
+                         left: 15px; top: 50%">
+                    </div>
+                    <div class="Usuario" style="margin-top: 35px; width: 100;">
+                        <ul class="lista-datos" style="text-decoration: none; list-style: none;">
+                            <li style="margin-left: 10%;"><a href="#"><h1>UserName</h1></a></li>
+                         </ul>
+                         <div class="Datos-Usuario">
+                            <ul class="" style="list-style: none; margin-left: 45%; margin-top: -11%;">
+                                <li><i class="icon fa-solid fa-hourglass-start"></i>Hora de inicio: </li>
+                                <br>
+                                <li><i class="icon fa-solid fa-hourglass-end"></i>Hora final: </li>
+                                <br>
+                                <li><i class="icon fa-solid fa-calendar-day"></i>Fecha: </li>
+                                <br>
+                                <li><i class="icon fa-solid fa-map-location"></i></i>Lugar de destino</li>
+                            </ul>
+                            <ul> 
+                                <li style="list-style: none; margin-left: 70%; margin-top: -17.5%;"><i class="icon fa-solid fa-question"></i>Descripción de la actividad: </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                </div>
             </div>
         </div>
-        <div class="perfil-usuario-body">
-            <div class="perfil-usuario-bio">
-                <h3 class="titulo">NOMBRE DE USUARIO</h3>
-                <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-            <div class="perfil-usuario-footer">
-                
-            </div>
-    </section>
+</section>
 <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 <script>
     let menuToggle=document.querySelector('.toggle');

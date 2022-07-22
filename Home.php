@@ -20,18 +20,12 @@
             </li>
             <li class="list active">
                 
-                <a href="Home.php">
+                <a href="Requests.php">
                     <span class="icon"><ion-icon name="clipboard"></ion-icon></span>
                     <span class="title">Solicitudes</span>
                 </a>
             </li>
-            <li class="list">
-               
-                <a href="#">
-                    <span class="icon"><ion-icon name="checkbox"></ion-icon></span>
-                    <span class="title">Solicitudes aceptadas</span>
-                </a>
-            </li>
+            
             <li class="list">
                
                 <a href="profile.php">
@@ -42,7 +36,7 @@
             
             <li class="list">
               
-                <a href="#">
+                <a href="Ayuda.php">
                     <span class="icon"><ion-icon name="help-circle"></ion-icon></span>
                     <span class="title">Ayuda</span>
                 </a>
