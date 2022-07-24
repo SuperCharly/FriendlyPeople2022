@@ -38,7 +38,7 @@
             
             <li class="list">
               
-                <a href="#">
+                <a href="Ayuda.php">
                     <span class="icon"><ion-icon name="help-circle"></ion-icon></span>
                     <span class="title">Ayuda</span>
                 </a>

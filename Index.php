@@ -101,7 +101,7 @@
 							acciones que se requieren, con la finalidad de integrarlos a la sociedad.
 							<br>
 							<p>¿Quieres saber más de nuestros objetivos?</p>
-							<a class="ObjetivosB" href="#">Clic aquí</a>
+							<a class="ObjetivosB" href="Objetivos.php">Clic aquí</a>
 						</div>			
 					</div>
 				</div>	

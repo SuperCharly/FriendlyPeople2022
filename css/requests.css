@@ -202,4 +202,13 @@ body {
         width: 60%;
     
     }
-    
+    .seccion-config-usuario .config-usuario-header .config-usuario-portada .config-usuario-footer a{
+    text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	color: black;
+	border: 1px solid, black;
+	border-radius: 4px;
+	transition: all 400ms ease;
+    }
