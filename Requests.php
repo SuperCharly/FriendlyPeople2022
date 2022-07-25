@@ -83,7 +83,7 @@
                                 <li style="list-style: none; margin-left: 70%; margin-top: -22%;"><i class="icon fa-solid fa-question"></i>Descripción de la actividad: </li>
                             </ul>
                         </div>
-                        <div style="display: inline-block">
+                        <div style="display: inline-block; margin-left: 78%; margin-top: 11%">
                         <button type="button" class="btn btn-success">Aceptar</button>
                         <button type="button" class="btn btn-danger">Rechazar</button></div>
                     </div>
