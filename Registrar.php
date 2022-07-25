@@ -399,10 +399,10 @@ if(isset($_POST['submit']))
  </div>
 </div>
 <div>
-                    <p>¿Ya tienes una cuenta? <a href="Login.php" style="text-decoration: none; padding-bottom: 0">¡Inicia sesión!</a></p>
-                    <p style="opacity:0.9">Al registrarte, estás de acuerdo en que has leído y aceptado los <a href="T&C.php" style="text-decoration: none; padding-bottom: 0">Términos y Condiciones</a></p>   
-                    <button type="submit" name="submit" class="btn btn-primary">Registrarse</button>
-                </div>
+    <p>¿Ya tienes una cuenta? <a href="Login.php" style="text-decoration: none; padding-bottom: 0">¡Inicia sesión!</a></p>
+    <p style="opacity:0.9">Al registrarte, estás de acuerdo en que has leído y aceptado los <a href="T&C.php" style="text-decoration: none; padding-bottom: 0">Términos y Condiciones</a></p>   
+    <button type="submit" name="submit" class="btn btn-primary">Registrarse</button>
+</div>
             </form>
             </div>
             <img src="img/RegistrarSVG.svg">
@@ -435,119 +435,3 @@ if(isset($_POST['submit']))
                 </script>
    </body>
 </html>
-<!--<div class="col-md-6">
-<label for="validationDefault12" class="form-label">Confirmar Contraseña</label>
-<div class="contra">
-<input type="password" class="form-control"  name="repassword" id="validationDefaultPassword" required>
- </div>
-</div>-->
-
-<!--
-
-          <div class="col-md-6" class="rol">
-              <label for="validationDefault13" class="form-label">¿Tienes alguna discapacidad?</label>
-              <div class="form-check">
-                  <input class="form-check-input" type="radio" name="flexRadioDefault" name="discapacidad" id="flexRadioDefault1" onclick="mostrarForm()">
-<label class="form-check-label" for="flexRadioDefault1">
-Sí
-</label>
-</div>
-<div class="form-check">
-<input class="form-check-input"  class="radio2" type="radio" name="flexRadioDefault" name="discapacidad" id="flexRadioDefault2" onclick="ocultarForm()">
-<label class="form-check-label" for="flexRadioDefault2">
-No
-</label>
-</div>
-</div>
-   
-          <div id="form" class="form">
-          <div class="col-md-4">
-            <label for="validationDefault12" class="form-label">Tipo de discapacidad</label>
-            <select class="form-select" class="CajaBox" name="tdiscapacidad"id="caja">
-  <option selected disabled value="">Selecciona...</option>
-  <option>Visual</option>
-  <option>Auditiva</option>
-  <option>Motriz</option>
-  <option>Verbal</option>
-  <option>Mental</option>
-  <option>2 o más</option>
-  </select>
-</div>
-     --
-          <div class="col-md-6">
-               <label for="validationDefault14" class="form-label">Describe tu(s) discapacidad(es) para poder entenderte mejor</label>
-<div class="form-floating">
-<textarea class="form-control" class="CajaBox" placeholder="Leave a comment here" name="otra" id="caja" style="height: 90px"></textarea>
-<label for="floatingTextarea2">¡Lléname!</label>
-<br>
-<br>
-<br>
-</div>
-          </div>
-          </div>
-              
-             
-              
-  <div class="col-12">
-      <p>¿Ya tienes una cuenta? <a href="/php/Login.php" style="text-decoration: none; padding-bottom: 0">¡Inicia sesión!</a></p>
-      <button type="submit" class="btn btn-outline-primary" id="btn">Registrarse</button>
-  </div>   
-  </form>
-  </div>
-     <img src="/img/RegistrarSVG.svg">
-    </section>
- 
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>  
-   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
-      
-   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-			  crossorigin="anonymous"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-     
-
-    <script>
-        const icono=document.querySelector(".icono");
-        
-        icono.addEventListener("click", function(){
-            const icon=this.querySelector("i");
-            
-            if(this.nextElementSibling.type=== "password"){
-                icon.classList.remove("fa-eye-slash");
-                icon.classList.add("fa-eye");
-                this.nextElementSibling.type = "text";
-            }else{
-                this.nextElementSibling.type = "password";
-                  icon.classList.remove("fa-eye");
-                   icon.classList.add("fa-eye-slash");
-            }
-        }
-                );
-    </script>
-   
-    <script>
-     function mostrarForm(){
-         document.getElementById('form').style.display = 'block';
-     }
-    </script>
-    <script>
-        function ocultarForm(){
-         document.getElementById('form').style.display = 'none';
-     }
-    </script>
-    
-    <script>
-    $('#fechaNacimiento').on('change',function (){
-        $('#Edad').val(CalcularEdad());
-    });  
-
-
-    function CalcularEdad(){
-           var fechaSelect = $('#fechaNacimiento').val();
-           var fechaNac =new Date(fechaSelect);
-           var fechaActual=new Date();
-           var Edad=(parseInt((fechaActual-fechaNac)/(1000*60*60*24*365)));
-           return Edad;
-    
-    </script>-->
-    

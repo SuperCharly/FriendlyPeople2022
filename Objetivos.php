@@ -22,7 +22,7 @@
                            <a href="Index.php"><button class="boton In" type="button" style="font-size: 20px; position: absolute; left: 10%; top: 30px"><span>Inicio</span></button></a>
                         </li> 
                         <li class="nav-item">
-                            <a href="Registrar.php"><button class="boton Reg" type="button" style="font-size: 20px; position: absolute; left: 40%; top: 30px"><span>Registrarse</span></button></a>
+                            <a href="PreRegistro.php"><button class="boton Reg" type="button" style="font-size: 20px; position: absolute; left: 40%; top: 30px"><span>Registrarse</span></button></a>
                         </li>
                        <li class="nav-item">
                            <a href="Login.php"><button class="boton Login" type="button" style="font-size: 20px; position: absolute; left: 70%; top: 30px">

@@ -117,7 +117,7 @@ if(isset($_POST['submit']))
                             <a href="Objetivos.php"><button class="boton Reg" type="button" style="font-size: 20px; position: absolute; left: 40%; top: 30px"><span>Objetivos</span></button></a>
                         </li>
                        <li class="nav-item">
-                           <a href="Registrar.php"><button class="boton Login" type="button" style="font-size: 20px; position: absolute; left: 70%; top: 30px">
+                           <a href="PreRegistro.php"><button class="boton Login" type="button" style="font-size: 20px; position: absolute; left: 70%; top: 30px">
                                      <span>Registrarse</span></button></a>
                         </li>
                 </div>	

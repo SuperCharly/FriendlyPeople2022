@@ -6,8 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Inicio</title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Noto+Sans+JP&display=swap" rel="stylesheet"> 
-	<link href="Botonescss\Boton.css" rel="stylesheet" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link href="Botonescss\Boton.css" rel="stylesheet" type="text/css"/>
  	<link href="Botonescss\Botonuno.css" rel="stylesheet" type="text/css"/>
 	<link rel="stylesheet" href="css/index.css" type="text/css">
 	<script src="https://kit.fontawesome.com/6a3af0d5cf.js" crossorigin="anonymous"></script>
@@ -21,7 +21,7 @@
                 <div class="container-fluid">
                 <div class="collapse navbar-collapse" id="menu">
                         <li class="nav-item">
-                           <a href="Registrar.php"><button class="boton In" type="button" style="font-size: 20px; position: absolute; left: 10%; top: 30px"><span>Registrarse</span></button></a>
+                           <a href="PreRegistro.php"><button class="boton In" type="button" style="font-size: 20px; position: absolute; left: 10%; top: 30px"><span>Registrarse</span></button></a>
                         </li> 
                         <li class="nav-item">
                             <a href="Objetivos.php"><button class="boton Reg" type="button" style="font-size: 20px; position: absolute; left: 40%; top: 30px"><span>Objetivos</span></button></a>

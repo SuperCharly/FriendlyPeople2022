@@ -62,13 +62,10 @@
 <label for="validationDefault05" class="form-label">Tipo de ayuda</label>
 <select class="form-select" name="edad" id="Edad" required>
   <option selected disabled value="">Selecciona...</option>
-  <option>18</option>
-  <option>19</option>
-  <option>20</option>
-  <option>21</option>
-  <option>22</option>
-  <option>23</option>
-  <option>24</option>
+  <option>Salida casual</option>
+  <option>Compra de víveres</option>
+  <option>Compra de medicamentos</option>
+  <option>Otras</option>
   </select>
 </div>
 <div class="col-md-4">
@@ -104,29 +101,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>  
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
       
-   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-			  crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
      
-   <script>
-                    const icono=document.querySelector(".icono");
-                    
-                    icono.addEventListener("click", function(){
-                        const icon=this.querySelector("i");
-                        
-                        if(this.nextElementSibling.type=== "password"){
-                            icon.classList.remove("fa-eye-slash");
-                            icon.classList.add("fa-eye");
-                            this.nextElementSibling.type = "text";
-                        }else{
-                            this.nextElementSibling.type = "password";
-                              icon.classList.remove("fa-eye");
-                               icon.classList.add("fa-eye-slash");
-                        }
-                    }
-                            );
-                </script>
+
                 <script>
                    var date=new Date(); 
                    var tdate=date.getDate();
